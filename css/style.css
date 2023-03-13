@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,200;0,300;0,400;1,200&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+
+
+}
+.cv-container { margin: 10px 20px 10px 20px ;
+background: linear-gradient(95deg, rgb(189, 203, 244), rgb(241, 241, 244), rgb(189, 203, 244));
+}
+body {
+    font-family: Asap;
+    background-color: rgb(255, 255, 255);
+
+}
+li{list-style: none;}
+a{  color: black;}
+.wrapper {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.Nom-prenom{ font-size: 25px;
+    text-align: end;}
+
+.header-column {
+    background: linear-gradient(rgb(71, 125, 163), white, rgb(71, 125, 163));
+    width: 100%;
+    height: 30vh;
+   
+    margin-bottom: 5px;
+
+}
+.position-img{ display: flex;
+    align-items: center;
+    justify-content: center; }
+#photo {
+    height: 190px;
+    width: 200px;
+    margin: 10px 10px 0px 10px;
+    border: 2px solid rgba(238, 238, 238, 0.092);
+    border-radius: 50%;
+
+
+}
+
+.intro-column {
+    margin: auto;
+    display: block;
+    text-align: center;
+}
+.apropos {
+    margin-top: 5px;
+    padding: 5px;
+    border: 1px solid rgba(249, 249, 249, 0.416);
+    background-color: rgba(255, 255, 255, 0.289);
+    text-align:center;
+}
+
+.titre1 {
+    margin-left: 2px;
+
+    padding-left: 5px;
+    background: rgb(9, 36, 84);
+    color: rgb(255, 255, 255);
+    width: 50%;
+    border-top-right-radius: c 5px;
+    border-bottom-right-radius: 5px;
+
+
+}
+
+.contenu {
+    margin-left: 20px;
+}
+
+.stitre {
+    font-size: larger;
+    padding-left: 5px;
+    background: rgb(9, 36, 84);
+    color: rgb(255, 255, 255);
+    width: 155px;
+    border-top-right-radius: c 5px;
+    border-bottom-right-radius: 5px;
+
+}
+
+.competence {
+    margin-left: 1px;
+    margin-right: 15px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.items {
+
+    margin-left: 1px;
+    float: left;
+
+}
+
+.langage {
+    margin-top: 10px;
+    color: rgb(10, 97, 100);
+    list-style: none;
+}
+
+.langage li {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* les logos : */
+.logo {
+    width: 50px;
+}
+
+.logo-free {
+    width: 30px;
+    margin-top: px;
+}
+
+.tisseo {
+    width: 40px;
+}
+
+.html {
+    width: 40px;
+}
+
+.css {
+    width: 28px;
+}
+
+.js {
+    width: 40px;
+}
+
+.php {
+    width: 40px;
+}
+.tel {
+margin-top: 3px;
+margin-left: 5px;
+width: 20px;
+}
+
+.contact {
+    color: rgba(0, 0, 0, 0.948);
+    float: left;
+}
