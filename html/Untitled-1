@@ -1,0 +1,9 @@
+background:url("../image/imagesfooter.jpeg") ; /* background:url("../image/imagesfdblu.jpeg") ;*/
+background-size: contain;
+background-size: 100%;
+background-repeat: no-repeat;
+/* background: linear-gradient(rgb(71, 125, 163), white, rgb(71, 125, 163));*/
+width: 100%;
+height: 30vh;
+
+margin-bottom: 5px;

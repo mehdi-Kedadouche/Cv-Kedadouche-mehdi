@@ -5,39 +5,68 @@
 
 
 }
-.cv-container { margin: 10px 20px 10px 20px ;
-background: linear-gradient(95deg, rgb(189, 203, 244), rgb(241, 241, 244), rgb(189, 203, 244));
+
+.cv-container {
+    margin: 10px 20px 10px 20px;
+    background: linear-gradient(95deg, white,white,rgba(76, 136, 226, 0.774));     /*background: linear-gradient(95deg, rgb(189, 203, 244), rgb(241, 241, 244), rgb(189, 203, 244));*/
 }
+
 body {
     font-family: Asap;
     background-color: rgb(255, 255, 255);
 
 }
-li{list-style: none;}
-a{  color: black;}
+
+li {
+    list-style: none;
+}
+
+a {
+    color: black;
+}
+
 .wrapper {
     margin-left: 10px;
     margin-right: 10px;
 }
-.Nom-prenom{ font-size: 25px;
-    text-align: end;}
+
+.Nom-prenom {
+    font-size: 25px;
+    text-align: end;
+}
 
 .header-column {
-    background: linear-gradient(rgb(71, 125, 163), white, rgb(71, 125, 163));
+   background:url("../image/imagesfooter.jpeg") ; /* background:url("../image/imagesfdblu.jpeg") ;*/
+    background-size: contain;
+    background-size: 100%;
+    background-repeat: no-repeat;
+   /* background: linear-gradient(rgb(71, 125, 163), white, rgb(71, 125, 163));*/
     width: 100%;
     height: 30vh;
-   
+
     margin-bottom: 5px;
 
 }
-.position-img{ display: flex;
+.btn {
+    background-color: var(--color-main);
+    border: 0;
+    border-radius: 3px;
+    color: white;
+    padding: 0.5rem;
+    display: inline-block;
+  }
+
+.position-img {
+    display: flex;
     align-items: center;
-    justify-content: center; }
+    justify-content: center;
+}
+
 #photo {
     height: 190px;
     width: 200px;
     margin: 10px 10px 0px 10px;
-    border: 2px solid rgba(238, 238, 238, 0.092);
+    border: 3px solid rgb(255, 255, 255);
     border-radius: 50%;
 
 
@@ -48,22 +77,25 @@ a{  color: black;}
     display: block;
     text-align: center;
 }
+
 .apropos {
+    font-style: italic;
     margin-top: 5px;
     padding: 5px;
     border: 1px solid rgba(249, 249, 249, 0.416);
     background-color: rgba(255, 255, 255, 0.289);
-    text-align:center;
+    text-align: center;
+    font-weight: bold;
 }
 
 .titre1 {
     margin-left: 2px;
 
     padding-left: 5px;
-    background: rgb(9, 36, 84);
+    background-image: url("../image/abstract-2560x1600-background-solid-wallpaper-preview.jpg");       /* rgb(9, 36, 84);*/
     color: rgb(255, 255, 255);
     width: 50%;
-    border-top-right-radius: c 5px;
+    border-top-right-radius:  5px;
     border-bottom-right-radius: 5px;
 
 
@@ -76,7 +108,8 @@ a{  color: black;}
 .stitre {
     font-size: larger;
     padding-left: 5px;
-    background: rgb(9, 36, 84);
+    background-image: url("../image/abstract-2560x1600-background-solid-wallpaper-preview.jpg");  
+      /*background:     /* rgb(9, 36, 84)*/;
     color: rgb(255, 255, 255);
     width: 155px;
     border-top-right-radius: c 5px;
@@ -104,11 +137,14 @@ a{  color: black;}
     margin-top: 10px;
     color: rgb(10, 97, 100);
     list-style: none;
+
 }
 
 .langage li {
     margin-top: 10px;
     margin-bottom: 10px;
+    margin-right: 10px; 
+       
 }
 
 /* les logos : */
@@ -117,7 +153,7 @@ a{  color: black;}
 }
 
 .logo-free {
-    width: 30px;
+    width: 35px;
     margin-top: px;
 }
 
@@ -131,22 +167,36 @@ a{  color: black;}
 
 .css {
     width: 28px;
+    margin-left: 15px;
+    
+
 }
 
 .js {
     width: 40px;
+    margin-left: 15px;
 }
 
 .php {
     width: 40px;
+    margin-left: 15px;
+
 }
+
 .tel {
-margin-top: 3px;
-margin-left: 5px;
-width: 20px;
+    margin-top: 3px;
+    margin-left: 5px;
+    width: 20px;
+    color: white;
 }
 
 .contact {
     color: rgba(0, 0, 0, 0.948);
     float: left;
+    color: white;
 }
+a {color: white;}
+.logo-poste{
+    width: 55px;
+}
+/*23, 32, 42 ;*/
