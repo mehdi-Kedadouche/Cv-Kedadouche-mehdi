@@ -9,11 +9,16 @@
 .cv-container {
     margin: 10px 20px 10px 20px;
     background: linear-gradient(95deg, white,white,rgba(76, 136, 226, 0.774));     /*background: linear-gradient(95deg, rgb(189, 203, 244), rgb(241, 241, 244), rgb(189, 203, 244));*/
+    margin: 10px 250px 10px 250px;
+    box-shadow:  10px 5px 5px rgba(0, 0, 0, 0.349); 
 }
 
 body {
     font-family: Asap;
-    background-color: rgb(255, 255, 255);
+    background-color: rgba(204, 198, 198, 0.411);
+    /* background-image:url(..//image/colorblue.jpeg) ;
+    background-size: cover;
+    background-repeat: no-repeat; */
 
 }
 
