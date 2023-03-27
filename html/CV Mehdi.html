@@ -9,7 +9,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="../css/style.css">
   <title>CV Mehdi Kedadouche</title>
-
+</head>
 <body>
   <div class="cv-container">
     <button id="theme-switch" class="btn" type="button" aria-label="Changer le thème"><i class="icon-moon"></i></button>
@@ -19,7 +19,7 @@
           <ul>
             <br>
             <div class="Nom-prenom">
-              <h1 style="color: rgb(20, 66, 91);">Mehdi <strong>Kedadouche</strong> </h1>
+              <h1 style="color: rgb(14, 37, 49);">Mehdi <strong>Kedadouche</strong></h1>
               <h2><span style="color: rgb(58, 148, 164)">Développeur</span> <span style="color: purple;">Web</span>
               </h2>
             </div>
@@ -77,16 +77,16 @@
           <p> Mollitia est culpa fugit, iste in beatae. Sint, cumque quo tenetur velit illum, repellat
             aliquam deserunt alias tempore necessitatibus asperiores accusamus excepturi provident ut cupiditate vel.
           </p><br>
-          <p><strong>La Poste <img src="..//image/téléchargement.jpeg" class="logo-poste" alt="" > | Facteur</strong><br>
+          <p><strong>La Poste <img src="..//image/téléchargement.jpeg" class="logo-poste" alt=""> | Facteur</strong><br>
             <h4><strong style="color: cadetblue;">Octobre 2012 – mai 2018</strong></h4><br>
             Mollitia est culpa fugit, iste in beatae. Sint, cumque quo tenetur velit illum, repellat aliquam deserunt
             alias tempore necessitatibus asperiores accusamus excepturi provident ut cupiditate vel. Magni fugit
             dolorum,
           </p><br>
-          
-
-        </div>
       </div>
+      </div>
+        
+
       <div class="formation">
         <h2 class="titre1">Formations</h2><br>
         <div class="contenu">
@@ -100,9 +100,9 @@
           </ul>
 
           <br>
-          <p><strong>Contrat de Professionnalisation Niveau V RNCP </strong><br>
-            <h4><strong style="color: cadetblue;">2013</strong></h4><br>
-
+          <h3><strong>Contrat de Professionnalisation Niveau V RNCP </strong></h3>
+          <h4><strong style="color: cadetblue;">2013</strong></h4><br>
+          <p>
             Mollitia est culpa fugit, iste in beatae. Sint, cumque quo tenetur velit illum, repellat aliquam deserunt
             alias tempore necessitatibus asperiores accusamus excepturi provident ut cupiditate vel. Magni fugit
             dolorum,
@@ -113,25 +113,35 @@
       </div>
 
 
-      <h2 class="titre1">Competences</h2><br>
-
+      <h2 class="titre1">Competences Techniques</h2><br>
+      
       <footer class="competence">
 
         <div class="items">
-          <h3 class="stitre">Languages informatique</h3>
+          <h3 class="stitre">Languages Informatique</h3>
           <ol class="langage">
-            <li><img src="../image/html.png" class="html" alt="html-logo">
+            <li>
+              <img src="../image/html.png" class="html" alt="html-logo">
               <img src="../image/css-logo.png" class="css" alt="css-logo">
               <img src="..//image/php_logo.jpeg" class="php" alt="logo-php">
               <img src="../image/js-logo.png" class="js" alt="logoJS">
             </li>
+            <ol class="langage">
+              <li>
+                <span>html</span>
+                <span class="span-lang">Css</span>
+                <span class="span-lang">Php</span>
+                <span class="span-lang">Javascript</span>
+              </li>
+            </ol>
+
           </ol>
         </div>
 
 
 
         <div class="items">
-          <h2 class="stitre">Personnelles</h2>
+          <h2 class="stitre">Soft Skills</h2>
           <ol class="langage">
             <li>Pércéverance</li>
             <li>Créatif</li>
@@ -158,51 +168,11 @@
     </section>
 
 
-
-
-
-
-
-
-
-
     <!-- Code injected by live-server -->
     <script>
-      // <![CDATA[  <-- For SVG support
-      if ('WebSocket' in window) {
-        (function () {
-          function refreshCSS() {
-            var sheets = [].slice.call(document.getElementsByTagName("link"));
-            var head = document.getElementsByTagName("head")[0];
-            for (var i = 0; i < sheets.length; ++i) {
-              var elem = sheets[i];
-              var parent = elem.parentElement || head;
-              parent.removeChild(elem);
-              var rel = elem.rel;
-              if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
-                var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
-                elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
-              }
-              parent.appendChild(elem);
-            }
-          }
-          var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
-          var address = protocol + window.location.host + window.location.pathname + '/ws';
-          var socket = new WebSocket(address);
-          socket.onmessage = function (msg) {
-            if (msg.data == 'reload') window.location.reload();
-            else if (msg.data == 'refreshcss') refreshCSS();
-          };
-          if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
-            console.log('Live reload enabled.');
-            sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
-          }
-        })();
-      } else {
-        console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
-      }
-      // ]]>
+      
     </script>
 
   </div>
 </body>
+<html>

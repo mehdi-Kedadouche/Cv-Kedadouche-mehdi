@@ -35,10 +35,7 @@ a {
     margin-right: 10px;
 }
 
-.Nom-prenom {
-    font-size: 25px;
-    text-align: end;
-}
+/***HEADER***/
 
 .header-column {
    background:url("../image/imagesfooter.jpeg") ; /* background:url("../image/imagesfdblu.jpeg") ;*/
@@ -51,6 +48,11 @@ a {
 
     margin-bottom: 5px;
 
+}
+
+.Nom-prenom {
+    font-size: 25px;
+    text-align: end;
 }
 .btn {
     background-color: var(--color-main);
@@ -113,6 +115,7 @@ a {
 .stitre {
     font-size: larger;
     padding-left: 5px;
+    padding-top: 5px;
     background-image: url("../image/abstract-2560x1600-background-solid-wallpaper-preview.jpg");  
       /*background:     /* rgb(9, 36, 84)*/;
     color: rgb(255, 255, 255);
@@ -152,7 +155,7 @@ a {
        
 }
 
-/* les logos : */
+/* les logos et images : */
 .logo {
     width: 50px;
 }
@@ -205,3 +208,7 @@ a {color: white;}
     width: 55px;
 }
 /*23, 32, 42 ;*/
+
+.span-lang {
+   margin-left: 25px;
+}
