@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,200;0,300;0,400;1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;700&display=swap');
 * {
     padding: 0;
     margin: 0;
@@ -9,16 +10,21 @@
 .cv-container {
     margin: 10px 20px 10px 20px;
     background: linear-gradient(95deg, white,white,rgba(76, 136, 226, 0.774));     /*background: linear-gradient(95deg, rgb(189, 203, 244), rgb(241, 241, 244), rgb(189, 203, 244));*/
-    margin: 10px 250px 10px 250px;
-    box-shadow:  10px 5px 5px rgba(0, 0, 0, 0.349); 
+    margin: 10px 280px 10px 280px;
+    box-shadow:  10px 5px 5px rgba(92, 92, 92, 0.349); 
+}
+.cv-container--dark-Mode {
+ box-shadow:  10px 5px 5px rgba(255, 255, 255, 0.534); 
+ margin: 10px 280px 10px 280px;
+ background: linear-gradient(95deg, white,white,rgba(76, 136, 226, 0.774)); 
 }
 
 body {
-    font-family: Asap;
-    background-color: rgba(204, 198, 198, 0.411);
-    /* background-image:url(..//image/colorblue.jpeg) ;
+    font-family: "Asap";
+    /* background-color: rgba(204, 198, 198, 0.411); */
+     background-image:url(..//image/fond-gris.jpg) ;
     background-size: cover;
-    background-repeat: no-repeat; */
+    background-repeat: no-repeat; 
 
 }
 
@@ -97,7 +103,6 @@ a {
 
 .titre1 {
     margin-left: 2px;
-
     padding-left: 5px;
     background-image: url("../image/abstract-2560x1600-background-solid-wallpaper-preview.jpg");       /* rgb(9, 36, 84);*/
     color: rgb(255, 255, 255);
@@ -212,3 +217,30 @@ a {color: white;}
 .span-lang {
    margin-left: 25px;
 }
+
+/***Dark Mode ***/
+.myButton {
+ margin-left: 10px; float: left;  color: rgb(255, 255, 255); font-size: 17px ; line-height: 17px; padding: 15px; border-radius: 50%; font-weight:bold; text-decoration: none; font-style: normal; font-variant: normal; text-transform: none; background-image: linear-gradient(to right, rgb(10, 10, 10) 0%, rgb(19, 69, 102) 50%, rgb(12, 12, 12) 100%); box-shadow: rgba(0, 0, 0, 0.575) 5px 5px 15px 5px; border: 2px solid rgb(28, 110, 164); cursor: pointer;}
+    .myButton:hover {
+        background-image: url(..//image/colorblue.jpeg); }
+    .myButton:active {
+    background: #246da8; color: black; }
+
+    .bodySombre {
+        font-family: 'Asap';
+         background-image: url(..//image/colorblue.jpeg);
+         background-repeat: no-repeat;
+         background-size: cover;
+     }
+/***White Mode***/
+.whiteButton { margin-left: 10px; float: left;  color: rgb(255, 255, 255); font-size: 17px ; line-height: 17px; padding: 15px; border-radius: 50%; font-weight:bold; text-decoration: none; font-style: normal; font-variant: normal; text-transform: none; background-image: linear-gradient(to right, rgb(28, 110, 164) 0%, rgb(35, 136, 203) 50%, rgb(20, 78, 117) 100%); box-shadow: rgba(0, 0, 0, 0.575) 5px 5px 15px 5px; border: 2px solid rgb(28, 110, 164); cursor: pointer;}
+.whiteButton:hover {
+ background-image: url(..//image/fond-gris.jpg) }
+.whiteButton:active {
+background: #b9c2ca; color: rgb(101, 162, 190); }
+
+  
+    .bodyClair {
+       
+        background-color: rgba(204, 198, 198, 0.411);
+    }
