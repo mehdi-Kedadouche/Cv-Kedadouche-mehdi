@@ -6,15 +6,17 @@
 
 
 }
+p {   overflow: auto;}
 
 .cv-container {
     margin: 10px 20px 10px 20px;
     background: linear-gradient(95deg, white,white,rgba(76, 136, 226, 0.774));     /*background: linear-gradient(95deg, rgb(189, 203, 244), rgb(241, 241, 244), rgb(189, 203, 244));*/
     margin: 10px 280px 10px 280px;
-    box-shadow:  10px 5px 5px rgba(92, 92, 92, 0.349); 
+    /* box-shadow:  10px 5px 5px rgba(92, 92, 92, 0.349);  */
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 .cv-container--dark-Mode {
- box-shadow:  10px 5px 5px rgba(255, 255, 255, 0.534); 
+ box-shadow:  10px 5px 5px rgba(190, 190, 190, 0.534); 
  margin: 10px 280px 10px 280px;
  background: linear-gradient(95deg, white,white,rgba(76, 136, 226, 0.774)); 
 }
@@ -83,6 +85,10 @@ a {
     border-radius: 50%;
 
 
+
+}
+@media screen {
+    
 }
 
 .intro-column {
@@ -167,7 +173,7 @@ a {
 
 .logo-free {
     width: 35px;
-    margin-top: px;
+   
 }
 
 .tisseo {
@@ -195,6 +201,16 @@ a {
     margin-left: 15px;
 
 }
+.symfo {
+    width: 40px;
+    margin-left: 50px;
+
+}
+
+.git {
+    width: 60px;
+    margin-left: 22px;
+}
 
 .tel {
     margin-top: 3px;
@@ -215,16 +231,78 @@ a {color: white;}
 /*23, 32, 42 ;*/
 
 .span-lang {
-   margin-left: 25px;
+   margin-left: 22px;
 }
 
 /***Dark Mode ***/
-.myButton {
- margin-left: 10px; float: left;  color: rgb(255, 255, 255); font-size: 17px ; line-height: 17px; padding: 15px; border-radius: 50%; font-weight:bold; text-decoration: none; font-style: normal; font-variant: normal; text-transform: none; background-image: linear-gradient(to right, rgb(10, 10, 10) 0%, rgb(19, 69, 102) 50%, rgb(12, 12, 12) 100%); box-shadow: rgba(0, 0, 0, 0.575) 5px 5px 15px 5px; border: 2px solid rgb(28, 110, 164); cursor: pointer;}
+/* The switch - the box around the slider */
+.switch {
+    display: block;
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+    --width-of-switch: 3.5em;
+    --height-of-switch: 2em;
+    /* size of sliding icon -- sun and moon */
+    --size-of-icon: 1.4em;
+    /* it is like a inline-padding of switch */
+    --slider-offset: 0.3em;
+    position: relative;
+    width: var(--width-of-switch);
+    height: var(--height-of-switch);
+  }
+  
+  /* Hide default HTML checkbox */
+  .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  /* The slider */
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #f4f4f5;
+    transition: .4s;
+    border-radius: 30px;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: var(--size-of-icon,1.4em);
+    width: var(--size-of-icon,1.4em);
+    border-radius: 20px;
+    left: var(--slider-offset,0.3em);
+    top: 50%;
+    transform: translateY(-50%);
+    background: linear-gradient(40deg,#ff0080,#ff8c00 70%);
+    ;
+   transition: .4s;
+  }
+  
+  input:checked + .slider {
+    background-color: #303136;
+  }
+  
+  input:checked + .slider:before {
+    left: calc(100% - (var(--size-of-icon,1.4em) + var(--slider-offset,0.3em)));
+    background: #303136;
+    /* change the value of second inset in box-shadow to change the angle and direction of the moon  */
+    box-shadow: inset -3px -2px 5px -2px #8983f7, inset -10px -4px 0 0 #a3dafb;
+  }
+
+/* .myButton {
+ margin-left: 10px; float: left;  color: rgb(15, 15, 15); font-size: 17px ; line-height: 17px; padding: 15px; border-radius: 50%; font-weight:bold; text-decoration: none; font-style: normal; font-variant: normal; text-transform: none; background-image: linear-gradient(to right, rgb(10, 10, 10) 0%, rgb(19, 69, 102) 50%, rgb(12, 12, 12) 100%); box-shadow: rgba(0, 0, 0, 0.575) 5px 5px 15px 5px; border: 2px solid rgb(95, 95, 95); cursor: pointer;}
     .myButton:hover {
         background-image: url(..//image/colorblue.jpeg); }
     .myButton:active {
-    background: #246da8; color: black; }
+    background: #246da8; color: black; } */
 
     .bodySombre {
         font-family: 'Asap';
@@ -232,15 +310,4 @@ a {color: white;}
          background-repeat: no-repeat;
          background-size: cover;
      }
-/***White Mode***/
-.whiteButton { margin-left: 10px; float: left;  color: rgb(255, 255, 255); font-size: 17px ; line-height: 17px; padding: 15px; border-radius: 50%; font-weight:bold; text-decoration: none; font-style: normal; font-variant: normal; text-transform: none; background-image: linear-gradient(to right, rgb(28, 110, 164) 0%, rgb(35, 136, 203) 50%, rgb(20, 78, 117) 100%); box-shadow: rgba(0, 0, 0, 0.575) 5px 5px 15px 5px; border: 2px solid rgb(28, 110, 164); cursor: pointer;}
-.whiteButton:hover {
- background-image: url(..//image/fond-gris.jpg) }
-.whiteButton:active {
-background: #b9c2ca; color: rgb(101, 162, 190); }
 
-  
-    .bodyClair {
-       
-        background-color: rgba(204, 198, 198, 0.411);
-    }
